@@ -1,0 +1,17 @@
+nav {
+    background-color: hotpink;
+}
+
+nav ol a {
+    background-color: aquamarine;
+    display: block;
+    list-style: none;
+    padding: 8px 16px;
+    border: 1px dashed rgb(225, 28, 90);
+    font-family: sans-serif;
+}
+nav ol {
+    display: flex;
+    padding-left: 0;
+    background-color: aquamarine;
+}
