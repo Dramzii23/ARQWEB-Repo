@@ -41,6 +41,25 @@
        
         <h1>Yo soy la pagina de contacto</h1>
         <p>Soy un párrafo generico</p>
+        <div class="container">
+            <form action="mail.php" method="post">
+                <label for="name">Your Name</label> <br>
+                <input type="text"  name="name" placeholder="Your name..">
+                <br>
+                <br>
+                <label for="lname">Email</label>
+                <br>
+                <input type="email"  name="email" placeholder="Your email..">
+                <br>
+                <br>
+                <label for="message">Message</label><br>
+                <textarea  name="message" placeholder="Write something.." style="height:200px"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
+        </div>
+
     </main>
     <footer>soy el pie de la pagina</footer>
 </body>
